@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/04/2016, 20:25:30
+    Author     : Djalma
+*/
+
+.uk-form input:not([type="radio"]):not([type="checkbox"]), .uk-form select {
+    vertical-align: middle;
+}
+input.uk-form-small:not([type]), input.uk-form-small[type], select.uk-form-small, textarea.uk-form-small {
+    font-size: 12px;
+    height: 25px;
+    padding: 3px;
+}
+.uk-form input:not([type]), .uk-form input[type="text"], .uk-form input[type="password"], .uk-form input[type="email"], .uk-form input[type="url"], .uk-form input[type="search"], .uk-form input[type="tel"], .uk-form input[type="number"], .uk-form input[type="datetime"], .uk-form input[type="datetime-local"], .uk-form input[type="date"], .uk-form input[type="month"], .uk-form input[type="time"], .uk-form input[type="week"], .uk-form input[type="color"], .uk-form select, .uk-form textarea {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    color: #666;
+    height: 30px;
+    max-width: 100%;
+    padding: 4px 6px;
+    transition: all 0.2s linear 0s;
+}
+.uk-form input:not([type]), .uk-form input[type="text"], .uk-form input[type="password"], .uk-form input[type="email"], .uk-form input[type="url"], .uk-form input[type="search"], .uk-form input[type="tel"], .uk-form input[type="number"], .uk-form input[type="datetime"], .uk-form textarea {
+}
+input.uk-form-width-mini {
+    width: 40px;
+}
+.uk-form input, .uk-form select, .uk-form textarea {
+    border-radius: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.uk-form *::-moz-placeholder {
+    color: #999;
+}
+.uk-form *::-moz-placeholder {
+    opacity: 1;
+}
+*::-moz-selection {
+    background: #39f none repeat scroll 0 0;
+    color: #fff;
+    text-shadow: none;
+}
+.uk-grid {
+    list-style: outside none none;
+}
+body, h1, h2, h3, h4, h5, h6, .uk-navbar-nav > li > a {
+    font-family: "Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+html {
+    color: #666;
+    font: 400 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.uk-form input:not([type]), .uk-form input[type="text"], .uk-form input[type="password"], .uk-form input[type="email"], .uk-form input[type="url"], .uk-form input[type="search"], .uk-form input[type="tel"], .uk-form input[type="number"], .uk-form input[type="datetime"], .uk-form input[type="datetime-local"], .uk-form input[type="date"], .uk-form input[type="month"], .uk-form input[type="time"], .uk-form input[type="week"], .uk-form input[type="color"], .uk-form select, .uk-form textarea {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    color: #666;
+    height: 30px;
+    max-width: 100%;
+    padding: 4px 6px;
+    transition: all 0.2s linear 0s;
+}
+
+.uk-form input:focus:not([type]), .uk-form input[type="text"]:focus, .uk-form input[type="password"]:focus, .uk-form input[type="email"]:focus, .uk-form input[type="url"]:focus, .uk-form input[type="search"]:focus, .uk-form input[type="tel"]:focus, .uk-form input[type="number"]:focus, .uk-form input[type="datetime"]:focus, .uk-form input[type="datetime-local"]:focus, .uk-form input[type="date"]:focus, .uk-form input[type="month"]:focus, .uk-form input[type="time"]:focus, .uk-form input[type="week"]:focus, .uk-form input[type="color"]:focus, .uk-form select:focus, .uk-form textarea:focus {
+    background: #f5fbfe none repeat scroll 0 0;
+    border-color: #99baca;
+    color: #666;
+    outline: 0 none;
+}
